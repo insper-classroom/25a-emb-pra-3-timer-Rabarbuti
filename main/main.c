@@ -86,6 +86,7 @@ int main() {
             }
             erro = 0; //resetar as flags para evitar bugs
             tf = 0;
+            stop_char = 0;
         }
 
     }
