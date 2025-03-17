@@ -58,7 +58,7 @@ int main() {
         char start_char;
         printf("Aperte 's'\n");
         scanf("%c", &start_char);
-        int stop_char;
+        int stop_char = 0;
 
         while(start_char == 's' && stop_char != 'p'){
             stop_char = getchar_timeout_us(1000);
@@ -86,7 +86,6 @@ int main() {
             }
             erro = 0; //resetar as flags para evitar bugs
             tf = 0;
-            stop_char = 0;
         }
 
     }
